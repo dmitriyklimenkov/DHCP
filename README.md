@@ -8,7 +8,7 @@
 
  # Схема лабораторного стенда:
  
- ![](https://github.com/dmitriyklimenkov/DHCP/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG)
+ ![](https://github.com/dmitriyklimenkov/DHCP/blob/main/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0.PNG)
  
  # Таблица адресации:
 | Устройство | Интерфейс  |   IP адрес   | Маска подсети | Шлюз по умолчанию |
@@ -277,9 +277,8 @@ ipv6 route ::/0 2001:DB8:ACAD:2::1
 !
 ```
 Пропингуем с R1 до R2:
-
-R1#ping 10.0.0.1
 ```
+R1#ping 10.0.0.1
 Type escape sequence to abort.
 Sending 5, 100-byte ICMP Echos to 10.0.0.1, timeout is 2 seconds:
 !!!!!
