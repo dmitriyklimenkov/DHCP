@@ -401,7 +401,7 @@ VPCS1  fe80::250:79ff:fe66:6803/64
 ```
 interface e0/1
 ipv6 nd managed-config-flag
-ipv6 dhcp relay destination 2001:db8:acad:2::1 g0/0/0
+ipv6 dhcp relay destination 2001:db8:acad:2::1 e0/0
 ```
 Проверка на ПК2:
 ```
